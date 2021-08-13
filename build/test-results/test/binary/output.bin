@@ -1,0 +1,62 @@
+Request method:	POST
+1Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 961349455,
+    "category": {
+        "id": 1,
+        "name": "AX2345LORT"
+    },
+    "name": "Branca",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 20210812,
+            "name": "data"
+
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+%Date: Fri, 13 Aug 2021 01:03:58 GMT
+ Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+ Access-Control-Allow-Origin: *
+6Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+DAccess-Control-Allow-Headers: Content-Type, api_key, Authorization
+ Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 961349455,
+    "category": {
+        "id": 1,
+        "name": "AX2345LORT"
+    },
+    "name": "Branca",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+
+        {
+            "id": 20210812,
+            "name": "data"
+
+        }
+    ],
+    "status": "available"
+}
